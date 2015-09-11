@@ -1,15 +1,15 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-	<title>Change Random Color</title>
-	<script src="jquery.js" type="text/javascript" ></script>
-	<script type="text/javascript">
+ <head> 
+  <title>Change Random Color</title> 
+  <script src="jquery.js" type="text/javascript"></script> 
+  <script type="text/javascript">
 	$(document).ready(function(){
 		clr = (Math.floor(Math.random()*255).toString(16) + Math.floor(Math.random()*255).toString(16) + Math.floor(Math.random()*255).toString(16)).toUpperCase();
 		$("body").css("background-color", '#'+clr); 
 	});
-</script>
-</head>
-<body>
-<p>Hello world!</p>
-</body>
+</script> 
+ </head> 
+ <body> 
+  <p>Hello world!</p>  
+ </body>
 </html>
